@@ -9,6 +9,7 @@ function Login() {
             <input type="text" placeholder="username"/>
             <input type="text" placeholder="username"/>
             <button>Login</button>
+            <p>Error has Occured</p>
             <span>Don't have an Account? <Link to= "/regester">Regester</Link></span>
         </form>
     </div>

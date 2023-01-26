@@ -1,6 +1,7 @@
 $darkBackground: rgb(30, 30, 30);
 
 //login & regestaion
+
 .auth{
     display: flex;
     flex-direction: column;
@@ -16,7 +17,7 @@ $darkBackground: rgb(30, 30, 30);
     form{
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
         padding: 19px;
         width:200px;
         background-color: rgb(199, 189, 189);
@@ -35,6 +36,19 @@ $darkBackground: rgb(30, 30, 30);
         background-color: rgb(173, 147, 147);
         color:white;
         cursor: pointer;
+        margin-bottom: -5px;
+    }
+    p{
+        font-size: 12px;
+        color:rgb(177, 12, 12);
+        text-align: center;
+        margin-bottom: -5px;
+    }
+    span{
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+        text-align: center;
     }
 
 }

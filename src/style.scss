@@ -1,0 +1,40 @@
+$darkBackground: rgb(30, 30, 30);
+
+//login & regestaion
+.auth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:$darkBackground;
+    h1{
+        color:rgb(199, 180, 180);
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 19px;
+        width:200px;
+        background-color: rgb(199, 189, 189);
+    }
+    input{
+        padding: 10px;
+        border: none;
+        background-color: rgb(199, 189, 189);
+        color:white;
+        font-weight: bold;
+        border-bottom: 7px solid darkBackground;
+    }
+    button{
+        padding:10px;
+        border: none;
+        background-color: rgb(173, 147, 147);
+        color:white;
+        cursor: pointer;
+    }
+
+}

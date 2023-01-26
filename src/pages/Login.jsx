@@ -1,8 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Login() {
   return (
-    <div>Login</div>
+    <div className='auth'>
+        <h1>Login</h1>
+        <form>
+            <input type="text" placeholder="username"/>
+            <input type="text" placeholder="username"/>
+            <button>Login</button>
+            <span>Don't have an Account? <Link to= "/regester">Regester</Link></span>
+        </form>
+    </div>
   )
 }
 

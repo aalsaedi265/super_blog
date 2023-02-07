@@ -1,8 +1,11 @@
 import React from 'react'
+import logo from "../img/aniz.webp"
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <footer>
+      <img alt="logo" src={logo}/>
+    </footer>
   )
 }
 

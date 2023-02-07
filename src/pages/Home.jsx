@@ -35,8 +35,9 @@ function Home() {
               <Link className='link' to={`/post/${el.id}`}>
                 <h1>{el.title}</h1>
                 <p>{el.desc}</p>
-                <button>READ MORE</button>
               </Link>
+                <button>READ MORE</button>
+              
             </div>
 
           </div>

@@ -31,7 +31,7 @@ const router = createBrowserRouter([
     children:[
      
       {
-        path:'/post',
+        path:'/post/:id',
         element:<Single/>
       },
       {

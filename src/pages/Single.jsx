@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Menu from '../components/Menu'
 
 function Single() {
   return (
@@ -20,10 +21,11 @@ function Single() {
           </Link>
           <button>DELETE</button>
         </div>
-
         </div>
+        <h1 className='titleArt'>Dio is better then Jotaro</h1>
+        <p className='dialog'>Look at part 6 Dio and how he speaks and compare them man</p>
       </div>
-      <div className='menue'>m</div>
+      <Menu/>
     </div>
   )
 }

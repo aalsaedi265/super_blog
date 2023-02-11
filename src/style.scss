@@ -328,12 +328,78 @@ footer{
 
     .content{
         flex:5;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    
+    input{
+        padding:10px;
+        border: 1px solid pink;
+        color:$textColor;
+        font-size: 20px;
+        font-weight: bold;
     }
+    .editorContainer{
+        height: 300px;
+        width: 700px;
+        overflow: hidden;
+        border: 1px solid pink;
+
+        .box_edit{
+            height: 100%;
+            border:none;
+        }
+       
+    }
+}
+
 
     .menu{
         flex:2;
         display: flex;
         flex-direction: column;
         gap:20px;
+
+        .item_top{
+            border: 1px solid pink;
+            padding:10px;
+            flex:1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-size: 12px;
+
+            .file{
+                text-decoration: underline;
+                cursor: pointer;
+              }
+
+            .buttons{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 17px;
+
+                :first-child{
+                    cursor: pointer;
+                    background-color: white;
+                    border: 1px solid pink;
+                    padding: 3px 5px;
+                }
+                :last-child{
+                    cursor: pointer;
+                    border: 1px solid white;
+                    padding: 3px 5px;
+                }
+            }
+        }
+        .item{
+            border: 1px solid pink;
+            padding: 10px;
+            
+
+            h1{
+                font-size: 20px;
+            }
+        }
     }
 }

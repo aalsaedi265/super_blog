@@ -12,11 +12,11 @@ function Write() {
       <div className='content'>
         <input type='text' placeholder='Title'/>
         <div className='editorContainer'>
-          <ReactQuill theme="snow" value={value} onChange={setValue} />;
+          <ReactQuill className='box_edit' theme="snow" value={value} onChange={setValue} />;
         </div>
       </div>
       <dvi className="menu">
-        <div className="item">
+        <div className="item_top">
           <h1>Publish</h1>
           <span>
             <b>status: </b> Draft
@@ -25,7 +25,7 @@ function Write() {
             <b>Visibility: </b> Public
           </span>
           <input style={{display:'none'}} type="file" id="file" />
-          <label htmlFor='file'>UPLOAD IMG</label>
+          <label file="file" htmlFor='file'>UPLOAD IMG</label>
           <div className='buttons'>
             <button>Save as a Draft</button>
             <button>Update</button>
@@ -34,22 +34,22 @@ function Write() {
         <div className="item">
           <h1>Caregory</h1>
           <input type="radio" name="category" value="art" id="art"/>
-          <label htmlFor="art">Art</label>
+          <label htmlFor="art">Art</label><br></br>
 
           <input type="radio" name="category" value="science" id="science"/>
-          <label htmlFor="science">Science</label>
+          <label htmlFor="science">Science</label><br></br>
 
           <input type="radio" name="category" value="technology" id="technology"/>
-          <label htmlFor="technology">Technology</label>
+          <label htmlFor="technology">Technology</label><br></br>
 
           <input type="radio" name="category" value="cinema" id="cinema"/>
-          <label htmlFor="cinema">Cinema</label>
+          <label htmlFor="cinema">Cinema</label><br></br>
 
           <input type="radio" name="category" value="design" id="design"/>
-          <label htmlFor="dsign">Design</label>
+          <label htmlFor="dsign">Design</label><br></br>
 
           <input type="radio" name="category" value="food" id="food"/>
-          <label htmlFor="food">Food</label>
+          <label htmlFor="food">Food</label><br></br>
 
         </div>
       </dvi>

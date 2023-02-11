@@ -6,7 +6,7 @@ import 'react-quill/dist/quill.snow.css';
 function Write() {
 
   const [value, setValue] = useState('');
-
+  console.log(value)
   return (
     <div className='add'>
       <div className='content'>
@@ -16,7 +16,17 @@ function Write() {
         </div>
       </div>
       <dvi className="menu">
-        <div className="item">i1</div>
+        <div className="item">
+          <h1>Publish</h1>
+          <span>
+            <b>status: </b> Draft
+          </span>
+          <span>
+            <b>Visibility: </b> Public
+          </span>
+          <input style={{display:'none'}} type="file" id="file" name=""/>
+          <label htmlFor='file'>UPLOAD ME</label>
+        </div>
         <div className="item">i2</div>
       </dvi>
     </div>
